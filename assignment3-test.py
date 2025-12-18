@@ -228,6 +228,7 @@ print(X.head())
 # 3. Train classifiers
 # ============================
 
+
 # Define hyperparameter grids with explanations
 param_grids = {
     "Logistic Regression": {
@@ -362,7 +363,8 @@ for name, model in models.items():
     end_time = time.time()
     print("Training time:", round(end_time - start_time, 2), "seconds")
 
-# plot the confusion matrix for all models
+# plo
+
 plt.figure(figsize=(12, 9))
 for i, (name, model) in enumerate(best_models.items()):
     try:
